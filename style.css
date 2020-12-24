@@ -9,3 +9,9 @@ body {
   stroke-width: 4px;
   stroke-linecap: round;
 }
+
+.head {
+  fill: #ffffff;
+  stroke: #ffffff;
+  stroke-width: 4px;
+}
