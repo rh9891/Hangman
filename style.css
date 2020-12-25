@@ -1,6 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #34495e;
   color: #ffffff;
+  font-family: "Fredericka the Great", cursive;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 80vh;
+  margin: 0;
+  overflow: hidden;
+}
+
+h1 {
+  margin: 20px 0 0;
+}
+
+.game-container {
+  padding: 20px 30px;
+  position: relative;
+  margin: auto;
+  height: 350px;
+  width: 450px;
 }
 
 .figure-container {
@@ -18,4 +43,40 @@ body {
 
 .figure-part {
   display: none;
+}
+
+.incorrect-guesses-container {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+.incorrect-guesses-container p {
+  margin: 0 0 5px;
+}
+
+.incorrect-guesses-container span {
+  font-size: 24px;
+}
+
+.word {
+  display: flex;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.letter {
+  border-bottom: 3px solid #2980b9;
+  display: inline-flex;
+  font-size: 30px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 3px;
+  height: 50px;
+  width: 20px;
 }
