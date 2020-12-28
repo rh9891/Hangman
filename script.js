@@ -15,8 +15,9 @@ let selectedWord = words[Math.floor(Math.random() * words.length)];
 const correctGuesses = [];
 const incorrectGuesses = [];
 
-// Displays the new word.
+// Function that displays the new word.
 displayWord = () => {
+  // Sets the inner HTML to the selected word, which is generated randomly from the array.
   wordElement.innerHTML = `
     ${selectedWord
       // Splits the selected word into an array.
@@ -40,5 +41,45 @@ displayWord = () => {
     popup.style.display = "flex";
   }
 };
+
+// Function to update the array for the incorrect guesses.
+updateIncorrectGuessesArray = () => {
+  console.log("Successfully updated the array.");
+};
+
+// Function to show the notification upon making a guess that has already been attempted.
+showNotification = () => {
+  notification.classList.add("show");
+
+  setTimeout(() => {
+    notification.classList.remove("show");
+  }, 2000);
+};
+
+// Event listener for the keydown letter press.
+window.addEventListener("keydown", (event) => {
+  //   console.log(event.keyCode);
+  if (event.keyCode >= 65 && event.keyCode <= 90) {
+    const letter = event.key;
+
+    if (selectedWord.includes(letter)) {
+      if (!correctGuesses.includes(letter)) {
+        correctGuesses.push(letter);
+
+        displayWord();
+      } else {
+        showNotification();
+      }
+    } else {
+      if (!incorrectGuesses.includes(letter)) {
+        incorrectGuesses.push(letter);
+
+        updateIncorrectGuessesArray();
+      } else {
+        showNotification();
+      }
+    }
+  }
+});
 
 displayWord();
