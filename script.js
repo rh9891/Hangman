@@ -1,7 +1,7 @@
 // DOM Elements.
 const wordElement = document.getElementById("word");
 const incorrectGuessesElement = document.getElementById("incorrect-guesses");
-const playAgainButton = document.getElementById("play-again");
+const playAgainButton = document.getElementById("play-button");
 const popup = document.getElementById("popup-container");
 const notification = document.getElementById("notification-container");
 const finalMessage = document.getElementById("final-message");
@@ -100,6 +100,21 @@ window.addEventListener("keydown", (event) => {
       }
     }
   }
+});
+
+// An event listener that restarts the application and allows the user to play again.
+playAgainButton.addEventListener("click", () => {
+  // Arrays are emptied and reset.
+  correctGuesses.splice(0);
+  incorrectGuesses.splice(0);
+
+  selectedWord = words[Math.floor(Math.random() * words.length)];
+
+  displayWord();
+
+  updateIncorrectGuessesArray();
+
+  popup.style.display = "none";
 });
 
 displayWord();
