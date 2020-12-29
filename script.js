@@ -44,7 +44,27 @@ displayWord = () => {
 
 // Function to update the array for the incorrect guesses.
 updateIncorrectGuessesArray = () => {
-  console.log("Successfully updated the array.");
+  // This part of the function displays the incorrect guesses onto the DOM.
+  incorrectGuessesElement.innerHTML = `
+    ${
+      incorrectGuesses.length > 0 ? "<p>Incorrect Guesses</p>" : ""
+    } ${incorrectGuesses.map((letter) => `<span>${letter}</span>`)}
+  `;
+  // This part of the function displays the parts of the hanged man.
+  figureParts.forEach((part, index) => {
+    const errors = incorrectGuesses.length;
+
+    if (index < errors) {
+      part.style.display = "block";
+    } else {
+      part.style.display = "none";
+    }
+  });
+  // This part of the function checks to see if the user has lost.
+  if (incorrectGuesses.length === figureParts.length) {
+    finalMessage.innerText = "Sorry, but you have lost!";
+    popup.style.display = "flex";
+  }
 };
 
 // Function to show the notification upon making a guess that has already been attempted.
