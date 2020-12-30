@@ -16,8 +16,14 @@ const correctGuesses = [];
 const incorrectGuesses = [];
 
 retrieveWords = async () => {
-  const response;
+  const response = await fetch("assets/lexicon/words.txt");
+  const resData = await response.text();
+  words = resData.split("\n");
+  selectedWord = words[Math.floor(Math.random() * words.length)];
+  displayWord();
 };
+
+retrieveWords();
 
 // Function that displays the new word.
 displayWord = () => {
@@ -121,4 +127,4 @@ playAgainButton.addEventListener("click", () => {
   popup.style.display = "none";
 });
 
-displayWord();
+// displayWord();
