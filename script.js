@@ -8,12 +8,16 @@ const finalMessage = document.getElementById("final-message");
 
 const figureParts = document.querySelectorAll(".figure-part");
 
-const words = ["application", "programming", "interface", "wizard"];
+let words = [];
 
-let selectedWord = words[Math.floor(Math.random() * words.length)];
+let selectedWord;
 
 const correctGuesses = [];
 const incorrectGuesses = [];
+
+retrieveWords = async () => {
+  const response;
+};
 
 // Function that displays the new word.
 displayWord = () => {
