@@ -35,7 +35,7 @@ displayWord = () => {
       // Maps through it to see if the letter guessed is included in that array; Outputs the letter if it is included, but outputs an empty string if it is not.
       .map(
         (letter) =>
-          `<span class="letter"> ${
+          `<span class="${letter !== " " ? "letter" : "empty-space"}"> ${
             correctGuesses.includes(letter) ? letter : ""
           }</span>`
       )
@@ -45,10 +45,13 @@ displayWord = () => {
 
   // Eliminates new lines from being created after each character, so that its readability is better when determining a win.
   const innerWord = wordElement.innerText.replace(/\n/g, "");
+  // Eliminates any spaces between the letters, so that the readability is better when comparing it to the innerWord.
+  const selectedWordWithoutSpaces = selectedWord.replace(/\s/g, "");
 
-  if (innerWord === selectedWord) {
+  if (innerWord === selectedWordWithoutSpaces) {
     finalMessage.innerText = "Congrats! You've won! 🎉";
     popup.style.display = "flex";
+    window.removeEventListener("keydown", onKeyDown);
   }
 };
 
@@ -74,6 +77,7 @@ updateIncorrectGuessesArray = () => {
   if (incorrectGuesses.length === figureParts.length) {
     finalMessage.innerText = "Sorry, but you have lost!";
     popup.style.display = "flex";
+    window.removeEventListener("keydown", onKeyDown);
   }
 };
 
@@ -87,8 +91,9 @@ showNotification = () => {
 };
 
 // Event listener for the keydown letter press.
-window.addEventListener("keydown", (event) => {
-  //   console.log(event.keyCode);
+window.addEventListener("keydown", onKeyDown);
+
+function onKeyDown(event) {
   if (event.keyCode >= 65 && event.keyCode <= 90) {
     const letter = event.key;
 
@@ -110,10 +115,11 @@ window.addEventListener("keydown", (event) => {
       }
     }
   }
-});
+}
 
 // An event listener that restarts the application and allows the user to play again.
 playAgainButton.addEventListener("click", () => {
+  window.addEventListener("keydown", onKeyDown);
   // Arrays are emptied and reset.
   correctGuesses.splice(0);
   incorrectGuesses.splice(0);
@@ -126,5 +132,3 @@ playAgainButton.addEventListener("click", () => {
 
   popup.style.display = "none";
 });
-
-// displayWord();
