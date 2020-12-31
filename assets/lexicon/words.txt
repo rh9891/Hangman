@@ -452,27 +452,111 @@ fs package
 function
 function keyword
 function prototype
+get method
+get attribute method
+get context method
+get date method
+get element by id method
+get elements by classname method
+get elements by tagname method
+get hours method
+get item method
+get minutes method
+get month method
+get prototype of method
+get seconds method
+get time method
+get year method
+global object
+global scope
 global variable
+gossip property
 graphical interchange format
 graphical user interface
+graphics
+graphnode class
+group class
+group by function
+grouping
+hack
+handle action function
+hard disk
+hard drive
+hard coding
+has method
+hash mark character
+head property
+header
+headers property
+height property
+hexadecimal numbers
+hidden element
+higher order functions
 hook
 host
+href attribute
+html
+html tag
+http
+http package
+https
+https package
 hypertext
 hypertext markup language
-hypertext transfer protocol 
+hypertext transfer protocol
+hyphen character
 icon
+id attribute
+if keyword
+image
+import keyword
+in operator
+includes method
 indentation
+index
+index property
+index html file
+index js file
+infinite loop
+inline caching
+inline element
+inlining
+inner function
+inner loop
+inner height property
+inner width property
 input
+input event
 input field
 installation
 instance
+instance of operator
 integer
+integers
 interface
 internationalization
 internet
+interpolation
+inversion
 issue
 java
 javascript
+javascript object notation
+join method
+journal data set
+journal events function
+json
+json method
+json parse function
+json stringify function
+key code
+key property
+keyboard
+keyboard focus
+keydown event
+keyup event
+keyword
+kill process
 link
 local
 local host
