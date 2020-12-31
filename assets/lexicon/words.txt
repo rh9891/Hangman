@@ -557,49 +557,170 @@ keydown event
 keyup event
 keyword
 kill process
+label
+labeling
+last child property
+last index property
+last index of method
+leaf node
+length property
+let keyword
+level class
+lexical scoping
+line break
+line comment
+line width
+lines of code
+line to method
+line width property
 link
+links
+linter
+listen method
+load event
+load button event
 local
-local host
+localhost
 local storage
+local storage object
 local variable
 localization
+logging
 logic error
+logical operators
 loop
+machine code
+map class
+map method
 markup
 markup language
+match method
+math object
+math random function
+max height
+max width
+metakey property
+method attribute
+method property
+methods object
+mkdir function
+modifier key
 module
+module object
+module system
 modulus
 monitor
+mouse
+mousedown event
+mousemove event
+mouseup event
+move to method
+multiple attribute
+multiplier function
+name attribute
+neighbors property
 network
+network function
+new operator
+newline character
+next method
+next sibling property
 node
+node fetch package
+node list type
+node modules directory
+node name property
+node type property
+node value property
+nonbreaking space
+not a number
+notation
 notification
+npm package
+null
+number function
 object
+object prototype
+object oriented programming
+object prototype
 offline
+offset height property
+offset weight property
+onclick attribute
+onclick property
 online
 open source
 operation
 operator
+option
+options property
 output
+overflow
 overlay
+overwriting
+p tag
 package
+package manager
+package json file
+padding
 page
+page reload
+page x property
+page x offset property
+page y property
+page y offset property
 panel
 parameter
+parent node
+parent node property
 parse
+parse function
+parse apply function
+parse expression function
+parsing
 password
+password field
 paste
+path
+percent sign
+percentage
+period character
+persistent data structure
+p group class
+phi function
+pick function
+picture class
+picture property
 pixel
+pointer position function
 postscript
+post method
+prevent default method
+previous sibling property
 process
+process object
 program code
 program manager
 programming
+programming language
+programming style
+progress bar
+promise class
+protocol
+prototype
+prototype property
 proxy server
 pseudocode
 public key
 pull
 pull request
 push
+push method
+put method
+python
+query string
+query selector method
+query selector all method
 queue
 radio button
 recursion
