@@ -751,15 +751,48 @@ textual user interface
 timeout
 toggle
 tutorial
+unary operator
+undefined
+underscore character
+unicode
+unlink function
+unshift method
+updated method
 upload
+url
+url encoding
+user experience
+user interface
 user profile
 validation
 value
+value attribute
+var keyword
 variable
+variables
+vector
+vector graphics
+web
+web application
 web browser
 webmaster
 web page
 web server
 web site
+website
+websockets
+weekday module
+while loop
+whitespace
+width property
 window
+window object
 wireless
+with statement
+workbench
+write method
+write file method
+xlmns attribute
+yield
+yield keyword
+zero based counting
