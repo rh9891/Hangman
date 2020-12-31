@@ -339,24 +339,119 @@ drawing
 draw picture function
 drop down menu
 duplication
+ecstatic package
 edit
+editor
+egg language
 element
+element node code
+elements property
+ellipse
+else keyword
+elt function
+email
+empty set
 enable
 enabled
+encapsulation
+encoding
 encryption
+end event
+end method
+engine
+engineering
+enoent status code
+enter key
 entry field
+environment
 error
+error event
+error handling
 error log
+event recovery
+error response
+error tolerance
+error type
+es modules
+esc key
+etag header
+eval operator
+evaluate function
+evaluation
+even numbers
 event
+event handling
 event listener
+event loop
+event object
+event propagation
+event type
+every method
+everywhere function
+exception handling
+exec method
 execute
 exit
+exit method
+exponent
+exponentiation
+export keyword
+exports object
+expression
+factorial function
+false
 feature
+fetch function
 field
 file
+file extension
+file field
+file format
+file reading
+file server
+file size
+file system
+file type
+file reader class
+files property
+fill function
+fill method
+fill color property
+fill rect method
+fill style method
+fill text method
 filter
+filter method
+finally keyword
+find index method
+find in storage function
+find route function
+finish event
+firewall
+first child property
+fixed positioning
+flip horizontally function
+flip horizontally method
 float
+floating point number
+flow diagram
+focus
+focus event
+focus method
+font
+font family
+font size
+font weight
+for attribute
+for loop
+for each method
+form property
+format date module
+framework
+fs package
 function
+function keyword
+function prototype
 global variable
 graphical interchange format
 graphical user interface
