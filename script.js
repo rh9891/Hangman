@@ -5,6 +5,7 @@ const playAgainButton = document.getElementById("play-button");
 const popup = document.getElementById("popup-container");
 const notification = document.getElementById("notification-container");
 const finalMessage = document.getElementById("final-message");
+const revealAnswer = document.getElementById("reveal-answer");
 
 const figureParts = document.querySelectorAll(".figure-part");
 
@@ -76,6 +77,7 @@ updateIncorrectGuessesArray = () => {
   // This part of the function checks to see if the user has lost.
   if (incorrectGuesses.length === figureParts.length) {
     finalMessage.innerText = "Sorry, but you have lost!";
+    revealAnswer.innerText = `The correct answer was...${selectedWord}.`;
     popup.style.display = "flex";
     window.removeEventListener("keydown", onKeyDown);
   }
