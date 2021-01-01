@@ -51,6 +51,7 @@ displayWord = () => {
 
   if (innerWord === selectedWordWithoutSpaces) {
     finalMessage.innerText = "Congrats! You've won! 🎉";
+    revealAnswer.innerText = `You correctly guessed "${selectedWord}".`;
     popup.style.display = "flex";
     window.removeEventListener("keydown", onKeyDown);
   }
@@ -76,8 +77,8 @@ updateIncorrectGuessesArray = () => {
   });
   // This part of the function checks to see if the user has lost.
   if (incorrectGuesses.length === figureParts.length) {
-    finalMessage.innerText = "Sorry, but you have lost!";
-    revealAnswer.innerText = `The correct answer was...${selectedWord}.`;
+    finalMessage.innerText = "Sorry, but you have lost! 😔";
+    revealAnswer.innerText = `The correct answer was "${selectedWord}".`;
     popup.style.display = "flex";
     window.removeEventListener("keydown", onKeyDown);
   }
