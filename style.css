@@ -163,3 +163,46 @@ h1 {
 .notification-container.show {
   transform: translateY(-80px);
 }
+
+/* For screens that are 480px or less (mobile devices). */
+@media screen and (max-width: 480px),
+  screen and (device-aspect-ratio: 2/3),
+  screen and (device-aspect-ratio: 40/71),
+  screen and (device-aspect-ratio: 375/667),
+  screen and (device-aspect-ratio: 16/9) {
+  .notification-container {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px 10px;
+    position: absolute;
+    bottom: -300px;
+    transition: transform 0.3s ease-in-out;
+  }
+  p {
+    font-size: 12px;
+  }
+  .game-container {
+    padding: 10px 10px;
+    position: relative;
+    margin: auto;
+    height: 350px;
+    width: 300px;
+  }
+  .notification-container.show {
+    transform: translateY(-330px);
+  }
+  .popup {
+    background-color: #dda0dd;
+    border-radius: 5px;
+    box-shadow: 0 15px 10px 3px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    margin: 30px;
+  }
+  .word {
+    position: relative;
+  }
+  .figure-container {
+    margin-bottom: 20px;
+  }
+}
