@@ -7,7 +7,6 @@ actions
 active element property
 actor
 add method
-add entry function
 add event listener method
 addition
 address
@@ -59,9 +58,7 @@ authentication
 authorization
 autofocus attribute
 automation
-automation
 avatar
-average function
 await keyword
 axis
 background
@@ -106,7 +103,6 @@ branching
 branching recursion
 break keyword
 breakpoint
-broadcast connections function
 browser
 browser wars
 buffer
@@ -143,11 +139,9 @@ certificate
 change event
 character
 character encoding
-character count function
 character script function
 checkbox
 checked attribute
-chicks function
 child node
 child nodes property
 children property
@@ -198,7 +192,6 @@ comment
 comment field reset
 communication
 community
-compare robots function
 comparison
 compatibility
 compilation
@@ -242,14 +235,9 @@ copy
 copyright
 correlation
 cosine
-count by function
 counter variable
 crash
 create element method
-create read stream function
-create server function
-create text node function
-create write stream function
 cross domain request
 crow tech module
 cryptography
@@ -287,8 +275,6 @@ default behavior
 default export
 default keyword
 default value
-define property function
-define request type function
 degree
 delete
 delete method
@@ -318,22 +304,19 @@ do loop
 doctype
 document
 document format
+document element property
 document object module
 documentation
-document element property
 dom property
 domain
 domain specific language
 dom display class
 done property
-done at property
 double click
 double quote character
 download
 download attribute
 dragging
-draw function
-draw graph function
 draw image method
 drawing
 draw picture function
@@ -348,7 +331,6 @@ element node code
 elements property
 ellipse
 else keyword
-elt function
 email
 empty set
 enable
@@ -368,7 +350,6 @@ error
 error event
 error handling
 error log
-event recovery
 error response
 error tolerance
 error type
@@ -376,7 +357,6 @@ es modules
 esc key
 etag header
 eval operator
-evaluate function
 evaluation
 even numbers
 event
@@ -385,9 +365,9 @@ event listener
 event loop
 event object
 event propagation
+event recovery
 event type
 every method
-everywhere function
 exception handling
 exec method
 execute
@@ -398,7 +378,6 @@ exponentiation
 export keyword
 exports object
 expression
-factorial function
 false
 feature
 fetch function
@@ -414,7 +393,6 @@ file system
 file type
 file reader class
 files property
-fill function
 fill method
 fill color property
 fill rect method
@@ -424,8 +402,6 @@ filter
 filter method
 finally keyword
 find index method
-find in storage function
-find route function
 finish event
 firewall
 first child property
@@ -476,10 +452,8 @@ graphical user interface
 graphics
 graphnode class
 group class
-group by function
 grouping
 hack
-handle action function
 hard disk
 hard drive
 hard coding
@@ -521,7 +495,6 @@ infinite loop
 inline caching
 inline element
 inlining
-inner function
 inner loop
 inner height property
 inner width property
@@ -544,7 +517,6 @@ javascript
 javascript object notation
 join method
 journal data set
-journal events function
 json
 json method
 json parse function
@@ -616,11 +588,9 @@ mousemove event
 mouseup event
 move to method
 multiple attribute
-multiplier function
 name attribute
 neighbors property
 network
-network function
 new operator
 newline character
 next method
@@ -675,8 +645,6 @@ parent node
 parent node property
 parse
 parse function
-parse apply function
-parse expression function
 parsing
 password
 password field
@@ -687,12 +655,9 @@ percentage
 period character
 persistent data structure
 p group class
-phi function
-pick function
 picture class
 picture property
 pixel
-pointer position function
 postscript
 post method
 prevent default method
@@ -722,40 +687,158 @@ query string
 query selector method
 query selector all method
 queue
+radians
 radio button
+radio buttons
+radius
+random numbers
+random item package
+range
+range function
+readability
+read as text method
+readdir function
+readdir sync function
+read file function
+read file sync function
+rect
+rectangle
 recursion
+reduce method
+reference error
+regular expressions
 register
 relative path
+relative positioning
+relative url
+remainder operator
+remote access
+remove child method
+remove event listener method
+remove item method
+repeat method
+replace method
+replace child method
+repulsion
+request function
+require function
 reset
+resolve function
 resource
+response
+response class
 response time
+responsiveness
+rest parameters
+restore method
+result property
+return keyword
+return value
+reverse method
+rmdir function
+root
+rotate method
 route
 router
+router class
 routing
+sandbox
+save method
+scale constant
+scale method
+scaling
 script
+script tag
+scripts data set
 scroll
 scroll bar
+scroll event
+scrolling
+search method
+select tag
+self closing tag
+send method
+sequence
 server
+session storage object
+set method
+set timeout function
+shift key
+shift method
+slash character
+slice method
+socket
+split
+spread operator
 sql
+square brackets
+src attribute
+stack overflow
+static file
+static method
+status code
 storage
 string
-structured query language
+strong tag
+style
+style attribute
 style sheet
+style tag
+structured query language
+submit event
 subprogram
+switch keyword
+symbol
+syntax
 syntax error
 syntax tree
 synchronous
+synchronization
+synchronous programming
 system
+tab character
+tab key
+table
+table tag
+tags
 task
+template
+template literals
+terminal
+ternary operator
+text field
+text method
+text node
+text wrapping
+text align property
+textarea
 textual user interface
+th tag
+theory
+throw keyboard
 timeout
+title tag
 toggle
+tr tag
+transform
+transformation
+trapezoid
+tree
+trial and error
+triangle
+trim method
 tutorial
+type
+type attribute
+type checking
+type property
+type variable
+typescript
+typo
 unary operator
 undefined
 underscore character
 unicode
-unlink function
 unshift method
 updated method
 upload
